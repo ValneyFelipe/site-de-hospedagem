@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Host</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/beb7de184b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar-container">
+                <nav>
+                    <a href="#"><img class='logo' src="img/hdchostlogo.png"></a>
+                    <ul class="navbar-items">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Planos</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#" class="btn-login">Entrar</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <main>
+                <div class="main-banner">
+                    <h1>Web Host</h1>
+                    <p>
+                        Os melhores planos para o seu negócio!
+                    </p>
+                </div>
+                <section class="specialties-container">
+                    <ul>
+                        <li>
+                            <i class="fas fa-shield-alt"></i>
+                            <h3>Segurança</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet quis mi ut scelerisque. Phasellus et venenatis nulla, in fringilla arcu.
+                            </p>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-rocket"></i>
+                            <h3>Velocidade</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet quis mi ut scelerisque. Phasellus et venenatis nulla, in fringilla arcu.
+                            </p>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-comments"></i>
+                            <h3>Suporte</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet quis mi ut scelerisque. Phasellus et venenatis nulla, in fringilla arcu.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <button type="button" class="btn-more">Saiba mais</button>
+                </section>
+
+                <section class="pricing-container">
+                    <h1>Planos e Preços</h1>
+                    <p>
+                        Selecione o plano perfeito para você
+                    </p>
+                    <div class="plans-container">
+                        <div class="plan">
+                            <ul>
+                                <li class="price">R$15/mês</li>
+                                <li class="plan-name">Padrão</li>
+                                <li>2GB de espaço em disco</li>
+                                <li>10 sub-domínios</li>
+                                <li>20 Contas de e-mail</li>
+                                <li>C-panel</li>
+                                <li>Suporte online 24h</li>
+                                <li class="plan-btn">Selecionar</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="plan">
+                            <ul>
+                                <li class="price">R$30/mês</li>
+                                <li class="plan-name">Premium</li>
+                                <li>5GB de espaço em disco</li>
+                                <li>20 sub-domínios</li>
+                                <li>50 contas de e-mail</li>
+                                <li>C-panel</li>
+                                <li>Suporte online 24h</li>
+                                <li class="plan-btn">Selecionar</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="plan">
+                            <ul>
+                                <li class="price recommended">R$50/mês</li>
+                                <li class="plan-name">Business</li>
+                                <li>10GB de espaço em disco</li>
+                                <li>100 sub-domínios</li>
+                                <li>100 Contas de e-mail</li>
+                                <li>C-panel</li>
+                                <li>Suporte online 24h</li>
+                                <li class="plan-btn recommended">Selecionar</li>
+                            </ul>
+                        </div>
+
+                        <div class="plan">
+                            <ul>
+                                <li class="price">R$100/mês</li>
+                                <li class="plan-name">Cloud Startup</li>
+                                <li>200GB de espaço em disco</li>
+                                <li>200 sub-domínios</li>
+                                <li>200 Contas de e-mail</li>
+                                <li>C-panel</li>
+                                <li>Suporte online 24h</li>
+                                <li class="plan-btn">Selecionar</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="searchdomain-container">
+                    <h2>Pesquisar um domínio</h2>
+                    <p>Verifique se o domínio que você deseja está disponível</p>
+                    <form>
+                        <input type="text" name="domain" placeholder="Digite o domínio desejado">
+                        <input type="submit" value="Buscar Domínio">
+                    </form>
+                </section>
+                <section class="contact-container">
+                    <h2>Entre em contato</h2>
+
+                    <div class="container-contact-options">
+
+                        <div class="box location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Rua 105 3567 Dom</span>
+                        </div>
+
+                        <div class="box phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>(99) 9999-9999</span>
+                        </div>
+
+                        <div class="box email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>suporte@webhost.com</span>
+                        </div>
+                    </div>
+
+                    <form class="form-contact">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu Nome" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" placeholder="Digite sua mensagem" required></textarea>
+
+                        <input type="submit" class="btn-form" value="Enviar">
+                    <form>
+                </section>
+            </main>
+            <footer>
+                <p>Copyright @2023</p>
+            </footer>
+        </div>
+        
+    </body>
+
+</html>
